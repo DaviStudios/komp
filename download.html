@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>davKOMP Downloads</title>
+    <link rel="stylesheet" href="https://unpkg.com/kennypixel/css/kennypixel.css">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Kenney Pixel', sans-serif;
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #container {
+            text-align: center;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .download-button {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .download-button:hover {
+            background-color: #555;
+        }
+
+        #home-link {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Home Link -->
+    <a id="home-link" href="index">Home</a>
+
+    <div id="container">
+        <h1>davKOMP Downloads</h1>
+        <a href="zips/basic.zip" class="download-button">I2 Basic</a>
+        <a href="zips/pro.zip" class="download-button">I2 Pro</a>
+        <a href="zips/pro_max.zip" class="download-button">I2 Pro Max</a>
+    </div>
+</body>
+
+</html>
